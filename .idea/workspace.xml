@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16c544ab-d25d-4934-8f9f-666cbe69dd1c" name="Default Changelist" comment="" />
+    <list default="true" id="16c544ab-d25d-4934-8f9f-666cbe69dd1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ContaCorrenteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ContaPoupancaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ContaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContaTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,18 +20,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/contabanco2$ContaTest.ic" NAME="ContaTest Coverage Results" MODIFIED="1553351385326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Conta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="e#434#435#0" expanded="true" />
                 <element signature="e#468#469#0" expanded="true" />
@@ -46,15 +63,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ContaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="561">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,11 +78,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ContaCorrente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="e#174#175#0" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ContaCorrenteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,11 +107,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ContaPoupanca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding>
                 <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ContaPoupancaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,13 +143,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Conta.java" />
         <option value="$PROJECT_DIR$/src/main/java/ContaCorrente.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ContaPoupanca.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ContaCorrenteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ContaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ContaPoupanca.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ContaPoupancaTest.java" />
       </list>
     </option>
   </component>
@@ -112,6 +164,7 @@
     <option name="width" value="2576" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -170,7 +223,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553347253033" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553351647976" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
@@ -200,6 +253,66 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.ContaPoupancaTest.deveAplicarRendimentoAoSaldo">
+    <configuration name="ContaPoupancaTest.deveAplicarRendimentoAoSaldo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="contabanco2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContaPoupancaTest" />
+      <option name="METHOD_NAME" value="deveAplicarRendimentoAoSaldo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="contabanco2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaTest.deveAplicarValorASaldo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="contabanco2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContaTest" />
+      <option name="METHOD_NAME" value="deveAplicarValorASaldo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaTest.deveRetirarValordeSaldo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="contabanco2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContaTest" />
+      <option name="METHOD_NAME" value="deveRetirarValordeSaldo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaTest.deveTransferirdeContaParaConta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="contabanco2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContaTest" />
+      <option name="METHOD_NAME" value="deveTransferirdeContaParaConta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ContaPoupancaTest.deveAplicarRendimentoAoSaldo" />
+        <item itemvalue="JUnit.ContaTest" />
+        <item itemvalue="JUnit.ContaTest.deveRetirarValordeSaldo" />
+        <item itemvalue="JUnit.ContaTest.deveTransferirdeContaParaConta" />
+        <item itemvalue="JUnit.ContaTest.deveAplicarValorASaldo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -210,43 +323,77 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553343676323</updated>
-      <workItem from="1553343683552" duration="4022000" />
+      <workItem from="1553343683552" duration="7319000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ContaCorrenteTest_deveDebitarJurosdoSaldo - 2019.03.23 at 11h 24m 41s.xml">
+      <configuration name="ContaCorrenteTest.deveDebitarJurosdoSaldo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaCorrenteTest_deveDebitarJurosdoSaldo - 2019.03.23 at 11h 28m 01s.xml">
+      <configuration name="ContaCorrenteTest.deveDebitarJurosdoSaldo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaCorrenteTest_deveSacarComDescontoDe1Porcento - 2019.03.23 at 11h 28m 18s.xml">
+      <configuration name="ContaCorrenteTest.deveSacarComDescontoDe1Porcento" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaTest_deveTransferirdeContaParaConta - 2019.03.23 at 11h 28m 41s.xml">
+      <configuration name="ContaTest.deveTransferirdeContaParaConta" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaTest_deveAplicarValorASaldo - 2019.03.23 at 11h 29m 10s.xml">
+      <configuration name="ContaTest.deveAplicarValorASaldo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaTest_deveTransferirdeContaParaConta - 2019.03.23 at 11h 29m 13s.xml">
+      <configuration name="ContaTest.deveTransferirdeContaParaConta" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaTest_deveRetirarValordeSaldo - 2019.03.23 at 11h 29m 29s.xml">
+      <configuration name="ContaTest.deveRetirarValordeSaldo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaTest - 2019.03.23 at 11h 29m 34s.xml">
+      <configuration name="ContaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaTest - 2019.03.23 at 11h 29m 49s.xml">
+      <configuration name="ContaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContaPoupancaTest_deveAplicarRendimentoAoSaldo - 2019.03.23 at 11h 34m 06s.xml">
+      <configuration name="ContaPoupancaTest.deveAplicarRendimentoAoSaldo" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4022000" />
+    <option name="totallyTimeSpent" value="7319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
       <window_info id="Designer" />
-      <window_info id="UI Designer" />
+      <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" weight="0.3298887" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3298887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -268,34 +415,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ContaPoupanca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ContaCorrente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="e#434#435#0" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
@@ -321,12 +450,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ContaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="561">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ContaCorrente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContaCorrenteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ContaPoupanca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ContaPoupancaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

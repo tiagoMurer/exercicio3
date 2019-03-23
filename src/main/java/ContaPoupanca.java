@@ -6,8 +6,18 @@ public class ContaPoupanca extends Conta {
         super(numconta, titular);
     }
 
-    private void aplicarRendimento(){
+    public void aplicarRendimento(){
         double saldo = this.getSaldo();
         this.setSaldo(saldo + (saldo * taxaRendimento));
+    }
+
+    //GETTERS + SETTERS
+
+    public static double getTaxaRendimento() {
+        return taxaRendimento;
+    }
+
+    public static void setTaxaRendimento(double taxaRendimento) {
+        ContaPoupanca.taxaRendimento = taxaRendimento;
     }
 }

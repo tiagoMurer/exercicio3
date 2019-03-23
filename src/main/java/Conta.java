@@ -5,11 +5,12 @@ public class Conta {
     private String titular;
     private double saldo;
 
-    Conta(String numconta, String titular){
+    public Conta(String numconta, String titular){
         this.numconta = numconta;
         this.titular = titular;
-        this.saldo = saldo;
+        this.saldo = 0;
     }
+
 
     protected void transferirPara(Conta outraconta, double valor){
         this.saldo -= valor;

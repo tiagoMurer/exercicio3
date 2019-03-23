@@ -7,7 +7,7 @@ public class ContaCorrente extends Conta{
         super(numconta, titular);
     }
 
-    private void debitarJuros(){
+    public void debitarJuros(){
         double saldo = this.getSaldo();
         this.setSaldo(saldo - (saldo * taxaChequeEspecial));
     }
@@ -18,4 +18,22 @@ public class ContaCorrente extends Conta{
         this.setSaldo(saldo - (valor + 0.01 * saldo));
     }
 
+
+    //GETTERS + SETTERS
+
+    public static double getTaxaChequeEspecial() {
+        return taxaChequeEspecial;
+    }
+
+    public static void setTaxaChequeEspecial(double taxaChequeEspecial) {
+        ContaCorrente.taxaChequeEspecial = taxaChequeEspecial;
+    }
+
+    public double getLimiteChequeEspecial() {
+        return limiteChequeEspecial;
+    }
+
+    public void setLimiteChequeEspecial(double limiteChequeEspecial) {
+        this.limiteChequeEspecial = limiteChequeEspecial;
+    }
 }
