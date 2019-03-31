@@ -1,8 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ContaPoupancaTest {
     @Test
     public void deveAplicarRendimentoAoSaldo(){
@@ -13,4 +11,15 @@ public class ContaPoupancaTest {
 
         Assert.assertEquals(105.0, conta.getSaldo(), 0);
     }
+    @Test
+    void excecaoParaRendimentoNegativo(){
+        ContaPoupanca cp = new ContaPoupanca("1234", "Joao");
+        double r = -534.43;
+        try{
+            cp.setTaxaRendimento(r);
+        }catch(ExcecaoValorAbsolutoNegativo){
+
+        }
+    }
+
 }

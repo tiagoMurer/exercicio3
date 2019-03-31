@@ -26,4 +26,15 @@ public class ContaCorrenteTest {
         Assert.assertEquals(89.0, conta.getSaldo(), 0);
     }
 
+    @Test
+    void excecaoParaRendimentoNegativo(){
+        ContaCorrente cc = new ContaCorrente("1234", "Joao");
+        double r = -534.43;
+        try{
+            cc.setTaxaChequeEspecial(r);
+        }catch(ExcecaoValorAbsolutoNegativo){
+
+        }
+    }
+
 }

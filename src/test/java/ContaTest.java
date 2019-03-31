@@ -33,4 +33,30 @@ public class ContaTest {
 
         Assert.assertEquals(0, conta.getSaldo(), 0);
     }
+
+    @Test
+    public void excecaoParaNumeroContaNaoNumerico(){
+        Conta conta = new Conta("1", "X");
+        String n = "A1";
+        try{
+            conta.setNumconta(n);
+        }catch(ExcecaoNumeroConta n){
+
+        }
+    }
+
+    @Test
+    public void excecaoParaSaldoNegativo(){
+        Conta c = new Conta();
+
+        double s = -1;
+
+        try{
+            c.setSaldo(s);
+        }catch(ExcecaoSaldoNegativo s){
+
+        }
+    }
+
+
 }
