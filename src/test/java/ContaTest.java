@@ -53,7 +53,7 @@ public class ContaTest {
 
         try{
             c.setSaldo(s);
-        }catch(ExcecaoSaldoNegativo s){
+        }catch(ExcecaoValorAbsolutoNegativo s){
 
         }
     }
